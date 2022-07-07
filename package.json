@@ -1,0 +1,22 @@
+{
+  "name": "0721-pi-grupo-1",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u00000\u00007\u00002\u00001\u0000-\u0000p\u0000i\u0000-\u0000g\u0000r\u0000u\u0000p\u0000o\u0000-\u00001\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarissaCesar1/0721-pi-grupo-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarissaCesar1/0721-pi-grupo-1/issues"
+  },
+  "homepage": "https://github.com/LarissaCesar1/0721-pi-grupo-1#readme",
+  "dependencies": {
+    "node": "^18.5.0"
+  }
+}
