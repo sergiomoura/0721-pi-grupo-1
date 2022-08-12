@@ -45,4 +45,17 @@ nav {
     background-color: rgb(67, 220, 231);
 }
 
+div.product-layout {box-sizing: border-box;
 
+position: absolute;
+width: 200px;
+height: 300px;
+left: 60px;
+top: 778px;
+
+background: #FFFFFF;
+border: 2px solid rgba(160, 160, 160, 0.5);}
+
+.price {
+    padding-top: 60px;
+}
