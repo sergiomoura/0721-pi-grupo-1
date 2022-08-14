@@ -57,30 +57,13 @@ header > div > img{
 }
 
 
-
-h2{
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-div.card  {
-box-sizing: border-box;
-display: inline-table;
-position: absolute;
-width: 200px;
-height: 300px;
-left: 60px;
-top: 778px;
-
-
-background: #FFFFFF;
-border: 2px solid rgba(160, 160, 160, 0.5)
-
+.card  {
+    width: 200px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-left: 20px;
+    margin-right: 50px;
+    display: inline-flex;
+    height: 300px;
 }
 
 .price {
