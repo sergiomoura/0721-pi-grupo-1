@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header {
-    background-color: #009dac;
+    background-color: #009DAC;
     width: 100%;
-   
 }
-
 .menu{
     display: flex;
     /* justify-content: space-between; */
@@ -19,16 +16,12 @@ header {
     width: 950px;
     height: 90px;
 }
-
-
-
 .menu > h1{
     color: #FFFFFF;
     font-weight: 100;
     /* margin-right: 30px; */
     /* font-size: 30px */
 }
-
 .menu > input{
     width:500px;
     height: 50px;
@@ -38,15 +31,12 @@ header {
     margin-right: 40px;
     border: 0px;
     padding: 20px;
-
 }
-
 .menu > img{
     width: 30px;
     height: 30px;
     margin-right: 20px;
 }
-
 #perfil{
     display: flex;
     align-items: center;
@@ -58,89 +48,29 @@ header {
     width: 30px;
     height: 30px;
 }
-
 #perfil > p {
     color: #FFFFFF;
 }
-
 .dropdown-menu{
     background-color: #B8DCE3;
     margin-left: auto;
     margin-right: auto;
 }
-
 .dropdown-menu > div{
     width: 950px;
     margin-left: auto;
     margin-right: auto;
     padding: 5px 0px;
-    
-   
 }
-
 .dropdown-menu > div > button{
     height: 30px;
     background-color: #D1EBF0;
     padding: 5px;
     border: 0px;
 }
-
-
-.slider {
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.slider>.slider-content {
-    width: 950px;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    transition: all 500ms ease;
-
-}
-
-.slider>.slider-content>.slider-item {
-    flex: 0 0 auto;
-    width: 100%;
-}
-
-.slider>input:nth-child(1):checked~.slider-content {
-    transform: translateX(0%);
-}
-
-.slider>input:nth-child(2):checked~.slider-content {
-    transform: translateX(-100%);
-}
-
-.slider>input:nth-child(3):checked~.slider-content {
-    transform: translateX(-200%);
-}
-
-.slider>input:nth-child(4):checked~.slider-content {
-    transform: translateX(-300%);
-}
-
 nav {
     background-color: rgb(67, 220, 231);
 }
-
-div.product-layout {box-sizing: border-box;
-
-position: absolute;
-width: 200px;
-height: 300px;
-left: 60px;
-top: 778px;
-
-background: #FFFFFF;
-border: 2px solid rgba(160, 160, 160, 0.5);}
-
-.price {
-    padding-top: 0px;
-}
-
 .card  {
     width: 200px;
     border: 1px solid rgb(212, 212, 212);
@@ -148,4 +78,96 @@ border: 2px solid rgba(160, 160, 160, 0.5);}
     margin-right: 50px;
     display: inline-flex;
     height: 300px;
+    padding-top: 30px;
 }
+.price {
+    padding-top: 0px;
+}
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    padding-top: 42px;
+}
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide {
+    width: 25%;
+    position: relative;
+   transition: 3s;
+}
+.slide img {
+    width: 800px;
+   height: 390px;
+}
+.manual-navigation {
+    position: absolute;
+    width: 830px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn {
+    border: 2px solid #FFFFFF;
+    padding: 4px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 50px;
+}
+.manual-btn:hover{
+    background-color: #FFFFFF;
+}
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+.navigation-auto{
+    border: 2px solid #009DAC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 20px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #FFFFFF;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #FFFFFF;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #FFFFFF;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #FFFFFF;
+}
+
+
+
