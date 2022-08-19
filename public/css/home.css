@@ -3,13 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header {
-    background-color: #009dac;
+    background-color: #009DAC;
     width: 100%;
-   
 }
-
 .menu{
     display: flex;
     /* justify-content: space-between; */
@@ -19,16 +16,12 @@ header {
     width: 950px;
     height: 90px;
 }
-
-
-
 .menu > h1{
     color: #FFFFFF;
     font-weight: 100;
     /* margin-right: 30px; */
     /* font-size: 30px */
 }
-
 .menu > input{
     width:500px;
     height: 50px;
@@ -38,15 +31,12 @@ header {
     margin-right: 40px;
     border: 0px;
     padding: 20px;
-
 }
-
 .menu > img{
     width: 30px;
     height: 30px;
     margin-right: 20px;
 }
-
 #perfil{
     display: flex;
     align-items: center;
@@ -58,38 +48,29 @@ header {
     width: 30px;
     height: 30px;
 }
-
 #perfil > p {
     color: #FFFFFF;
 }
-
 .dropdown-menu{
     background-color: #B8DCE3;
     margin-left: auto;
     margin-right: auto;
 }
-
 .dropdown-menu > div{
     width: 950px;
     margin-left: auto;
     margin-right: auto;
     padding: 5px 0px;
-    
-   
 }
-
 .dropdown-menu > div > button{
     height: 30px;
     background-color: #D1EBF0;
     padding: 5px;
     border: 0px;
 }
-
-
 nav {
     background-color: rgb(67, 220, 231);
 }
-
 
 .card  {
     width: 200px;
@@ -104,7 +85,6 @@ nav {
 .price {
     padding-top: 0px;
 }
-
 .slider{
     margin: 0 auto;
     width: 800px;
@@ -112,28 +92,23 @@ nav {
     overflow: hidden;
     padding-top: 42px;
 }
-
 .slides{
     width: 400%;
     height: 400px;
     display: flex;
 }
-
 .slides input{
     display: none;
 }
-
 .slide {
     width: 25%;
     position: relative;
    transition: 3s;
 }
-
 .slide img {
     width: 800px;
    height: 390px;
 }
-
 .manual-navigation {
     position: absolute;
     width: 830px;
@@ -141,7 +116,6 @@ nav {
     display: flex;
     justify-content: center;
 }
-
 .manual-btn {
     border: 2px solid #FFFFFF;
     padding: 4px;
@@ -149,38 +123,31 @@ nav {
     cursor: pointer;
     transition: 1s;
 }
-
 .manual-btn:not(:last-child){
     margin-right: 50px;
 }
-
 .manual-btn:hover{
     background-color: #FFFFFF;
 }
-
 #radio1:checked ~ .first {
     margin-left: 0;
 }
-
 #radio2:checked ~ .first {
     margin-left: -25%;
 }
-
 #radio3:checked ~ .first{
     margin-left: -50%;
 }
-
 #radio4:checked ~ .first{
     margin-left: -75%;
 }
 .navigation-auto{
-    border: 2px solid #009dac;
+    border: 2px solid #009DAC;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
-
 .navigation-auto{
     position: absolute;
     width: 800px;
@@ -188,11 +155,9 @@ nav {
     display: flex;
     justify-content: center;
 }
-
 .navigation-auto div:not(:last-child){
     margin-right: 20px;
 }
-
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background-color: #FFFFFF;
 }
@@ -205,3 +170,6 @@ nav {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background-color: #FFFFFF;
 }
+
+
+
