@@ -90,6 +90,7 @@ nav {
     background-color: rgb(67, 220, 231);
 }
 
+
 .card  {
     width: 200px;
     border: 1px solid rgb(212, 212, 212);
@@ -97,7 +98,8 @@ nav {
     margin-right: 50px;
     display: inline-flex;
     height: 300px;
-}
+    padding-top: 30px;
+} 
 
 .price {
     padding-top: 0px;
@@ -108,6 +110,7 @@ nav {
     width: 800px;
     height: 400px;
     overflow: hidden;
+    padding-top: 42px;
 }
 
 .slides{
@@ -133,22 +136,22 @@ nav {
 
 .manual-navigation {
     position: absolute;
-    width: 850px;
-    margin-top: -40px;
+    width: 830px;
+    margin-top: -70px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn {
     border: 2px solid #FFFFFF;
-    padding: 5px;
-    border-radius: 20px;
+    padding: 4px;
+    border-radius: 30px;
     cursor: pointer;
     transition: 1s;
 }
 
 .manual-btn:not(:last-child){
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .manual-btn:hover{
