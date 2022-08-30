@@ -91,6 +91,9 @@ nav {
     height: 400px;
     overflow: hidden;
     padding-top: 42px;
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 .slides{
     width: 400%;
