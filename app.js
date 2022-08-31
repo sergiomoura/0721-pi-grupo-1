@@ -1,21 +1,20 @@
-// Importar o express
-const express = require("express")
+// importando o express
+const express = require("express");
+// importando roteador 
+const indexRouter = require('./routers/indexRouter')
+const path = require('path')
 
-// Criar a aplicação
-const app = express()
+// criando servidor
+const app = express();
+//Configuração do Template Engine
+app.set('view engine', 'ejs');
+//configurando a pasta public como contenedora dos arquivos estáticos
+app.use(express.static(path.join(__dirname, 'public')))
 
-// Importar o roteador IndexRouter
-const IndexRouter = require("Router")
-
-// Usar o IndexRouter no app (app.use)
-app.use('/', IndexRouter);
-
-// Fazer a aplicação rodar escutando a porta 3000
-app.listen(
-    3000,
-    ()=>{
-        console.log("Escutando a porta 3000")
-    }
-)
+// usando o roteador
+app.use('/', indexRouter);
 
 
+
+
+app.listen(3000)
