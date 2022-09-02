@@ -263,3 +263,33 @@ aside {
 #radio4:checked~.navigation-auto .auto-btn4 {
     background-color: #FFFFFF;
 }
+
+
+footer{
+    background-color: #009DAC;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+
+.footer{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.informacao{
+    display: flex;    
+}
+
+.servicos-ao-cliente{
+    padding-left: 20px;
+}
+
+.redes-sociais{
+    padding-left: 20px;
+}
+
+.fale-conosco{
+    padding-left: 20px;
+}
