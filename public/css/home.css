@@ -132,17 +132,25 @@ header {
 }
 
 .card {
-    width: 200px;
     border: 1px solid rgb(212, 212, 212);
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 50px;
-    height: 300px;
-    padding-top: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 aside {
     display: flex;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
 }
 
+
+.button {
+    justify-content: space-between;
+}
 
 .price {
     padding-top: 0px;
@@ -161,6 +169,7 @@ aside {
     width: 400%;
     height: 400px;
     display: flex;
+    
 }
 
 .slides input {
@@ -177,6 +186,7 @@ aside {
     width: 800px;
     height: 390px;
 }
+
 
 .manual-navigation {
     position: absolute;
