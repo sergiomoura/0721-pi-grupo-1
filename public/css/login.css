@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Rhodium Libre';
 }
 
 body {
@@ -48,29 +48,6 @@ body {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-}
-
-.login-button {
-    display: flex;
-    align-items: center;
-}
-
-.login-button button {
-    border: none;
-    background-color:#009DAC;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.login-button button:hover {
-    background-color: #B8DCE3;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #fff;
 }
 
 .form-header h1::after {
@@ -147,23 +124,25 @@ body {
     color: #000000c0;
 }
 
-.continue-button button {
-    width: 100%;
-    margin-top: 2.5rem;
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
     border: none;
-    background-color: #6c63ff;
-    padding: 0.62rem;
+    background-color:#009DAC;
+    padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.continue-button button:hover {
-    background-color: #6b63fff1;
+.login-button button:hover {
+    background-color: #B8DCE3;
 }
 
-.continue-button button a {
+.login-button button a {
     text-decoration: none;
-    font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
 }
