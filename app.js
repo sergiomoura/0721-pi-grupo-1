@@ -1,13 +1,20 @@
-// importando a biblioteca express
+// importando o express
 const express = require("express");
+// importando roteador 
+const indexRouter = require('./routers/indexRouter')
+const path = require('path')
 
-//criando um servidor
+// criando servidor
 const app = express();
+//Configuração do Template Engine
+app.set('view engine', 'ejs');
+//configurando a pasta public como contenedora dos arquivos estáticos
+app.use(express.static(path.join(__dirname, 'public')))
+
+// usando o roteador
+app.use('/', indexRouter);
 
 
-req.get('/a',(req,res)=>{
-    res.send('ola'),
-    console.log("escutando")
-})
+
 
 app.listen(3000)
