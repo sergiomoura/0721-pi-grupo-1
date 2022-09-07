@@ -275,25 +275,38 @@ footer{
     margin-top: 30px;
 }
 
-
 .footer{
     width: 950px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .informacao{
-    display: flex;    
+ width: 284px;
+ margin-right: 150px;
+}
+
+.informacao > h2{
+    margin: 20px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+
+.informacao > p{
+    margin-bottom: 10px;
 }
 
 .servicos-ao-cliente{
-    padding-left: 20px;
-}
-
-.redes-sociais{
-    padding-left: 20px;
+    /* margin-right: 300px; */
+    /* margin-right: 60px; */
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 284px;
+    
 }
 
 .fale-conosco{
-    padding-left: 20px;
+    margin-right: 20px;
+     margin-top: 20px;
 }
