@@ -85,7 +85,11 @@ header {
     list-style: none;
    /* border: 1px solid #d30606;
     float: left; */
-    padding-left: 350px;
+    /* padding-left: 350px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    height: 90px;
     
 }
 
