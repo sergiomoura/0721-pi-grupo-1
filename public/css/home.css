@@ -12,12 +12,16 @@ header {
 
 .menu {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
     width: 950px;
     height: 90px;
+}
+
+.menu>div{
+    display: flex;
 }
 
 .menu>h1 {
@@ -38,16 +42,16 @@ header {
     padding: 20px;
 }
 
-.menu>img {
+.menu img {
     width: 30px;
     height: 30px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #perfil {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-left: 20px;
     /* width: 40px;
     height: 40px; */
 }
@@ -162,7 +166,7 @@ aside {
 
 .slider {
     margin: 0 auto;
-    width: 800px;
+    width: 950px;
     height: 400px;
     overflow: hidden;
     padding-top: 42px;
@@ -187,8 +191,7 @@ aside {
 }
 
 .slide img {
-    width: 800px;
-    height: 390px;
+    width: 100%;
 }
 
 
