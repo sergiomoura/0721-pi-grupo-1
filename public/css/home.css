@@ -62,7 +62,8 @@ header {
 }
 
 .dropdown-menu{
-    background-color: rgb(67, 220, 231);
+    /* background-color: rgb(67, 220, 231); */
+    background: #B8DCE3;
     margin-left: auto;
     margin-right: auto;
 }
@@ -270,43 +271,34 @@ aside {
 
 
 footer{
-    background-color: #009DAC;
-    color: #FFFFFF;
     margin-top: 30px;
+    width: 100%;
+    background-color: #009DAC;
 }
 
-.footer{
+.footer-header{
+    display: flex;
+    align-items: center;
     width: 950px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.footer-header > h2{
+    font-size: 2em;
+    font-weight: 100;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.redes-sociais{
+   height: 20px;
 }
 
 .informacao{
- width: 284px;
- margin-right: 150px;
+    display: flex;
+    background: #B8DCE3;
 }
 
-.informacao > h2{
-    margin: 20px;
-    margin-bottom: 15px;
-    margin-left: 0px;
-}
-
-.informacao > p{
-    margin-bottom: 10px;
-}
-
-.servicos-ao-cliente{
-    /* margin-right: 300px; */
-    /* margin-right: 60px; */
-    margin-top: 20px;
-    padding-bottom: 20px;
-    width: 284px;
-    
-}
-
-.fale-conosco{
-    margin-right: 20px;
-     margin-top: 20px;
-}
