@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript exercicios</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de javascript</h1>
+    <p> quantidade de idaedes </p>
+    <script>
+        let somaDasIdades = 0;
+        let quantidadeDeIdade = 0;
+        let idadeDigitada = 0;
+        console.log("Digite todas as idade . quando terminar , digite o fim");
+        idadeDigitada = prompt("Digite a idade");
+        while (idadeDigitada != "fim") {
+            if (idadeDigitada == parseInt(idadeDigitada)) {
+                somaDasIdades += parseInt(idadeDigitada);
+                quantidadeDeIdade++;
+            }else if (idadeDigitada == "fim") {
+                break;
+            }else{
+                console.log("Digite um numero para encerrar o fim do programa");
+            }
+            idadeDigitada = prompt("Digite a idade");
+        }
+        if (quantidadeDeIdade > 0 ) {
+            console.log(" Soma das idades: " + somaDasIdades);
+            console.log("numero de idades digitadas: " + quantidadeDeIdade);
+            console.log(" media das idade " + somaDasIdades / quantidadeDeIdade);
+        }else{
+            console.log("Nenhuma idade foi digitada");
+        }
+    </script>
+</body>
+</html>

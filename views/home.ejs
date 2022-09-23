@@ -1,50 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Store</title>
-    <link rel="stylesheet" href="/css/home.css">
-    <script src="https://kit.fontawesome.com/a64a0e5a1a.js" crossorigin="anonymous"></script>
-</head>
+<%- include("partials/head.ejs"); %>
 
 <body>
-    <header>
-        <div class="menu">
-            <h1>Book Store</h1>
-            <input type="text" name="Pesquisar" value="" placeholder="Pesquisar">
-
-            <div id="perfil">
-                <i class="fa-solid fa-user fa-lg"></i>
-                <p>Perfil</p>
-            </div>
-            <i class="fa-solid fa-cart-shopping fa-lg"></i>
-            <i class="fa-solid fa-heart fa-lg"></i>
-        </div>
-        <div class="dropdown-menu">
-    </header>
-    <div class="dropdown-menu">
-            <nav>
-                <ul class="dropdown">
-
-                    <li><a href="#">Compre por categoria</a>
-                        <ul>
-                            <li><a href="#">e-book</a></li>
-                            <li><a href="#">Autores mais procurados</a></li>
-                            <li><a href="#">Genêros</a></li>
-                            <li><a href="#">Infantil</a></li>
-                            <li><a href="#">Clássicos</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Promoções</a></li>
-                    <li><a href="#">Lançamentos</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Contato</a></li>
-            </nav>
-
-    </div>
+    <link rel="stylesheet" href="/css/home.css">
+    
+    <%- include("partials/header.ejs"); %>
+    
     <div class="slider">
         <div class="slides">
             <input type="radio" name="radio-btn" id="radio1">
@@ -604,54 +567,7 @@
             </div>
         </div> 
     </aside>
-    <footer>
-            <div class="footer-header">
-                <h2>Book Store</h2>
-                <div class="redes-sociais">
-                    <i class="fa-brands fa-instagram fa-2xl"></i>
-                    <i class="fa-brands fa-square-facebook fa-2xl"></i>
-                    <i class="fa-brands fa-discord fa-2xl"></i>
-                </div>
-            </div>
-            <div class="informacao">
-                <div class="servicos-ao-cliente">
-                    <h3>Servicos ao cliente</h3>
-                    <p>Mapa do site</p>
-                    <p>Eventos</p>
-                    <p>Revista</p>
-                </div>
-                <div class="fale-conosco">
-                    <h3>Fale conosco</h3>
-                    <p>Perguntas Frequentes</p>
-                    <p>Trabalhe Conosco</p> 
-            </div>
-            </div>
-
-
-            <!-- <div class="informacao">
-                <h2>Book Store</h2>
-                <p>Book Store e o melhor site de vendas de livros, aqui você pode encontrar diversos livros e categorias otimas </p>
-                <div class="redes-sociais">
-                    <h3>Redes sociais</h3>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-discord"></i>
-                </div>
-            </div>
-            <div class="servicos-ao-cliente">
-                <h3>Servicos ao cliente</h3>
-                <p>Mapa do site</p>
-                <p>Eventos</p>
-                <p>Trabalhe conosco</p>
-                <p>Revista</p>
-            </div>
-            <div class="fale-conosco">
-                <h3>Fale conosco</h3>
-                <p>Perguntas Frequentes</p>
-                <p>Trabalhe Conosco</p> -->
-            
-            
-        
-    </footer>
+    <%- include('partials/footer.ejs') %>
 </body>
+
 </html>
