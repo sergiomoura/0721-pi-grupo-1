@@ -4,6 +4,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 500px;
+    margin: 90px 0;
 }
 
 .container {

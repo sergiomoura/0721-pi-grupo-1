@@ -151,35 +151,3 @@ aside {
 }
 
 
-footer{
-    margin-top: 30px;
-    width: 100%;
-    background-color: #009DAC;
-}
-
-.footer-header{
-    display: flex;
-    align-items: center;
-    width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #FFFFFF;
-    padding: 10px;
-}
-
-.footer-header > h2{
-    font-size: 2em;
-    font-weight: 100;
-    margin-right: 20px;
-    align-items: center;
-}
-
-.redes-sociais{
-   height: 20px;
-}
-
-.informacao{
-    display: flex;
-    background: #B8DCE3;
-}
-
