@@ -135,8 +135,9 @@ header {
     position: absolute;
     top: 25px;
     left: 0;
-    background-color: rgb(242, 251, 252);
+    background-color: rgb(184, 220, 227);
     display:none;
+    list-style: none;
 }
 
 .dropdown li:hover ul,
@@ -145,9 +146,9 @@ header {
 }
 
 .dropdown li ul li {
-    border: 1px solid #c0c0c0;
-    display: block;
-    width: 150px;
+    /* border: 1px solid #c0c0c0;
+    display: block; */
+    width: 205px;
 }
 
 footer{

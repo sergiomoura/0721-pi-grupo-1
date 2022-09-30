@@ -50,6 +50,7 @@ aside {
     overflow: hidden;
     padding-top: 42px;
     position: relative;
+    z-index: -1;
 }
 
 .slides {
