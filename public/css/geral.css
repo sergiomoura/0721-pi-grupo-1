@@ -154,17 +154,26 @@ header {
 footer{
     margin-top: 30px;
     width: 100%;
-    background-color: #009DAC;
+   
 }
 
 .footer-header{
-    display: flex;
-    align-items: center;
-    width: 950px;
-    margin-left: auto;
-    margin-right: auto;
     color: #FFFFFF;
     padding: 10px;
+    width: 100%;
+    background-color: #009DAC;
+}
+
+.footer-menu{
+
+    width: 950px;
+
+    display: flex;
+    align-items: center;
+  
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .footer-header > h2{
@@ -178,7 +187,18 @@ footer{
    height: 20px;
 }
 
-.informacao{
+.footer-informacao{
     display: flex;
+    width: 950px;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.informacao{
+    width: 100%;
     background: #B8DCE3;
 }
