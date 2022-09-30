@@ -173,6 +173,7 @@ footer{
   
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-between;
 
 }
 
@@ -185,20 +186,37 @@ footer{
 
 .redes-sociais{
    height: 20px;
+
+}
+
+.redes-sociais > i{
+    padding-left: 11px;
+}
+
+
+
+.informacao{
+    width: 100%;
+    background: #B8DCE3;
 }
 
 .footer-informacao{
     display: flex;
     width: 950px;
     align-items: center;
-
+   
     margin-left: auto;
     margin-right: auto;
+    
+    color: #333;
 
     
 }
 
-.informacao{
-    width: 100%;
-    background: #B8DCE3;
+.servicos-ao-cliente{
+    padding-right: 133px;
+}
+
+.fale-conosco{
+    margin: 0px;
 }
