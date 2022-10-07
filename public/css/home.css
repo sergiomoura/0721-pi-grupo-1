@@ -12,14 +12,14 @@
 
 .buton{
     display: flex;
-    margin-left: 20px;
-    margin-left: 10px;
-    padding: 10px
+    padding: 10px;
+    justify-content: space-between;
 }
 
 .card {
     border: 1px solid rgb(212, 212, 212);
    width: 25%;
+
 }
 
 .card > img{
@@ -32,6 +32,16 @@
     margin: 10px;
     margin: 0 12px;
 }
+
+.promocao{
+    font-size: 20px;
+    width: 951px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    
+}
+
 aside {
     display: flex;
     margin-top: 25px;
