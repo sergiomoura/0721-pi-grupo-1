@@ -102,7 +102,7 @@ header {
     /* padding-left: 350px; */
     margin-left: auto;
     margin-right: auto;
-    width: 950px;
+    width: 975px;
     height: 100%;
     
 }
@@ -135,7 +135,7 @@ header {
 
 .dropdown li ul {
     position: absolute;
-    top: 25px;
+    top: 40px;
     left: 0;
     background-color: rgb(184, 220, 227);
     display:none;
