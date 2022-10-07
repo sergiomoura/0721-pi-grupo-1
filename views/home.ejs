@@ -3,572 +3,638 @@
 
 <%- include("partials/head.ejs"); %>
 
-<body>
-    <link rel="stylesheet" href="/css/home.css">
-    
-    <%- include("partials/header.ejs"); %>
-    
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <div class="slide first">
-                <img src="/img/carrosel.jpeg" width="900" alt="Imagem 1" />
-            </div>
-            <div class="slide">
-                <img src="/img/imagemSlide2.jpeg" alt="Imagem 2" />
-            </div>
-            <div class="slide">
-                <img src="/img/slide3.jpeg" alt="Imagem 3" />
-            </div>
-            <div class="slide">
-                <img src="/img/divinaComedia.jpeg" alt="Imagem 4" />
-            </div>
-        </div>
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-        </div>
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-        <script src="/js/script.js"></script>
-    </div>
+    <body>
+        <link rel="stylesheet" href="/css/home.css">
 
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine1.jpg"  loading="lazy" alt="">
-            <h2>Lady Killers</h2>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine2.jpg" loading="lazy" alt="">
-            <h2>Lady Killers</h2>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-        </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine3.jpg"  loading="lazy" alt="">
-            <h2>Lady Killers</h2>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine4.jpeg" loading="lazy" alt="">
-            <h2>Lady Killers</h2>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>    
-    </aside>
-    <h2>DESTAQUE DO MÊS</h2>
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine5.jpg" loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine6.jpg"  loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine7.jpg"  loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine8.jpg"  loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div> 
-    </aside>
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine9.jpg"  loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine10.jpg"  loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine11.jpg" loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine12.jpg"  loading="lazy" alt="">
-            <h1>O Mundo de Sofia</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>       
-    </aside>
-    <h2>LANÇAMENTOS</h2>
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine13.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine14.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine15.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine16.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>  
-    </aside>
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine13.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine14.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine15.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine16.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div> 
-    </aside>
-    <div class="slider">
-        <div class="slides">
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
-            <div class="slide first">
-                <img src="/img/carrosel.jpeg" width="900" alt="Imagem 1" />
-            </div>
-            <div class="slide">
-                <img src="/img/imagemSlide2.jpeg" alt="Imagem 2" />
-            </div>
-            <div class="slide">
-                <img src="/img/slide3.jpeg" alt="Imagem 3" />
-            </div>
-            <div class="slide">
-                <img src="/img/divinaComedia.jpeg" alt="Imagem 4" />
-            </div>
-        </div>
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-        </div>
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
-        <script src="/js/script.js"></script>
-    </div>
-    <h2>SUPER DESCONTOS</h2>
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine13.jpg" loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine14.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine15.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine16.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div> 
-    </aside>
-    <aside>
-        <div class="card">
-            <img src="/img/vitrine13.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price"> R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine14.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$ 300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine15.jpg" loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div>
-        <div class="card">
-            <img src="/img/vitrine16.jpg"  loading="lazy" alt="">
-            <h1>Gravity Falls</h1>
-            <p class="price">R$300,00</p>
-            <div class="buton">
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa fa-shopping-cart"></i>
-                </button>
-            </div>
-            <div class="button-group">
-                <button type="button">
-                    <i class="fa-solid fa-heart"></i>
-                </button>
-            </div>
-            </div>
-        </div> 
-    </aside>
-    <%- include('partials/footer.ejs') %>
-</body>
+        <%- include("partials/header.ejs"); %>
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <div class="slide first">
+                        <img src="/img/carrosel.jpeg" width="900" alt="Imagem 1" />
+                    </div>
+                    <div class="slide">
+                        <img src="/img/imagemSlide2.jpeg" alt="Imagem 2" />
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slide3.jpeg" alt="Imagem 3" />
+                    </div>
+                    <div class="slide">
+                        <img src="/img/divinaComedia.jpeg" alt="Imagem 4" />
+                    </div>
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <script src="/js/script.js"></script>
+            </div>
+
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine1.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h2>Lady Killers</h2>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine2.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h2>Lady Killers</h2>
+                        <p class="price">R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine3.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h2>Lady Killers</h2>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine4.jpeg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h2>Lady Killers</h2>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <h2>DESTAQUE DO MÊS</h2>
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine5.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine6.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price">R$ 300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine7.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine8.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine9.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine10.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price">R$ 300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine11.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine12.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>O Mundo de Sofia</h1>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <h2>LANÇAMENTOS</h2>
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine13.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine14.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$ 300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine15.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine16.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine13.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine14.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine15.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine16.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <div class="slide first">
+                        <img src="/img/carrosel.jpeg" width="900" alt="Imagem 1" />
+                    </div>
+                    <div class="slide">
+                        <img src="/img/imagemSlide2.jpeg" alt="Imagem 2" />
+                    </div>
+                    <div class="slide">
+                        <img src="/img/slide3.jpeg" alt="Imagem 3" />
+                    </div>
+                    <div class="slide">
+                        <img src="/img/divinaComedia.jpeg" alt="Imagem 4" />
+                    </div>
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <script src="/js/script.js"></script>
+            </div>
+            <h2>SUPER DESCONTOS</h2>
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine13.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine14.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine15.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine16.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div class="card">
+                    <img src="/img/vitrine13.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price"> R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine14.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$ 300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine15.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/vitrine16.jpg" loading="lazy" alt="">
+                    <div class="livros">
+                        <h1>Gravity Falls</h1>
+                        <p class="price">R$300,00</p>
+                    </div>
+                    <div class="buton">
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                        <div class="button-group">
+                            <button type="button">
+                                <i class="fa-solid fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <%- include('partials/footer.ejs') %>
+    </body>
 
 </html>
