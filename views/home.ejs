@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
+        
 <%- include("partials/head.ejs"); %>
 
     <body>
+
+            
         <link rel="stylesheet" href="/css/home.css">
 
         <%- include("partials/header.ejs"); %>
@@ -43,11 +45,12 @@
             </div>
 
             <aside>
+                <% for(let produto of produtos){ %>
                 <div class="card">
-                    <img src="/img/vitrine1.jpg" loading="lazy" alt="">
+                    <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
                     <div class="livros">
-                        <h2>Lady Killers</h2>
-                        <p class="price"> R$ 300,00</p>
+                        <h2><%= produto.nome%></h2>
+                        <span><%= produto.preco.toLocaleString('pt-br', { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' }) %></span>
                     </div>
                     <div class="buton">
                         <div class="button-group">
@@ -62,76 +65,17 @@
                             </button>
                         </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="/img/vitrine2.jpg" loading="lazy" alt="">
-                    <div class="livros">
-                        <h2>Lady Killers</h2>
-                        <p class="price">R$ 300,00</p>
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/img/vitrine3.jpg" loading="lazy" alt="">
-                    <div class="livros">
-                        <h2>Lady Killers</h2>
-                        <p class="price">R$300,00</p>
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/img/vitrine4.jpeg" loading="lazy" alt="">
-                    <div class="livros">
-                        <h2>Lady Killers</h2>
-                        <p class="price">R$300,00</p>
-
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                </div> 
+                <% } %>
             </aside>
             <div class="promocao">DESTAQUE DO MÊS</div>
             <aside>
+                <% for(let produto of produtos){ %>
                 <div class="card">
-                    <img src="/img/vitrine5.jpg" loading="lazy" alt="">
+                    <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
                     <div class="livros">
-                        <h1>O Mundo de Sofia</h1>
-                        <p class="price"> R$ 300,00</p>
+                        <h2><%= produto.nome%></h2>
+                        <span><%= produto.preco.toLocaleString('pt-br', { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' }) %></span>
                     </div>
                     <div class="buton">
                         <div class="button-group">
@@ -147,69 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="/img/vitrine6.jpg" loading="lazy" alt="">
-                    <div class="livros">
-                        <h1>O Mundo de Sofia</h1>
-                        <p class="price">R$ 300,00</p>
-
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/img/vitrine7.jpg" loading="lazy" alt="">
-                    <div class="livros">
-                        <h1>O Mundo de Sofia</h1>
-                        <p class="price">R$300,00</p>
-
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="/img/vitrine8.jpg" loading="lazy" alt="">
-                    <div class="livros">
-                        <h1>O Mundo de Sofia</h1>
-                        <p class="price">R$300,00</p>
-
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+                <% } %>
             </aside>
             <aside>
                 <div class="card">

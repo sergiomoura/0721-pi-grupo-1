@@ -1,6 +1,6 @@
 const indexController = {
     showHome: (req, res) => {
-        res.render('home.ejs')
+        res.render('home.ejs', produtos)
     },
     showCadastro: (req, res) => {
         res.render('cadastro.ejs')
