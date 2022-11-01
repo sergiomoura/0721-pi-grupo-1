@@ -1,5 +1,5 @@
 
-.button-group >button{
+.button-group>button{
     background-color:#009DAC ;
     border: none;
     height: 30px;
@@ -16,7 +16,8 @@
     justify-content: space-between;
 }
 
-.card {
+.card{
+    border-radius: 15px;
     border: 1px solid rgb(212, 212, 212);
    width: 25%;
 
@@ -26,6 +27,7 @@
     width: 100%;
     padding: 10px;
     padding-bottom: 0px;
+
 }
 
 .livros{
@@ -70,30 +72,37 @@ aside {
     position: relative;
     z-index: -1;
 }
-
-.slides {
+.slider2 {
+    margin: 0 auto;
+    width: 950px;
+    overflow: hidden;
+    padding-top: 25px;
+    position: relative;
+    z-index: -1;
+}
+.slides{
     width: 400%;
     height: 400px;
     display: flex;
     
 }
 
-.slides input {
+.slides input{
     display: none;
 }
 
-.slide {
+.slide{
     width: 25%;
     position: relative;
     transition: 3s;
 }
 
-.slide img {
+.slide img{
     width: 100%;
 }
 
 
-.manual-navigation {
+.manual-navigation{
     position: absolute;
     width: 830px;
     margin-top: -70px;
@@ -101,7 +110,7 @@ aside {
     justify-content: center;
 }
 
-.manual-btn {
+.manual-btn{
     border: 2px solid #FFFFFF;
     padding: 4px;
     border-radius: 30px;
@@ -109,11 +118,11 @@ aside {
     transition: 1s;
 }
 
-.manual-btn:not(:last-child) {
+.manual-btn:not(:last-child){
     margin-right: 50px;
 }
 
-.manual-btn:hover {
+.manual-btn:hover{
     background-color: #FFFFFF;
 }
 
