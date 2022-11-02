@@ -1,7 +1,49 @@
-.dados-pessoais{
-    background-color: aqua;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rhodium Libre';
 }
 
-.endereco-de-entrega{
-    background-color: black;
+.main{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    margin-top: 30px;
+
 }
+
+main{
+    width: 480px;
+    background-color: #B8DCE3;
+}
+
+.book{
+    background-color: aqua;
+    width: 480px;
+}
+
+.informacao-book{
+    display: flex;
+}
+
+.dados-pessoais{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.input-box{
+    margin-right: 10px;
+}
+
+label{
+    width: 45px;
+    
+}
+.endereco-de-entrega{
+    margin-bottom: 0px;
+}
+
