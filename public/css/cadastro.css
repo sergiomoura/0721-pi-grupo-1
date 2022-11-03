@@ -15,8 +15,8 @@ body {
 }
 
 .container {
-    width: 80%;
-    height: 80vh;
+    width: 900px;
+    /* height: 80vh; */
     display: flex;
     box-shadow: 5px 5px 10px #009DAC;
 }
@@ -35,13 +35,12 @@ body {
 }
 
 .form {
-    width: 50%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    padding: 3rem;
+    background-color: #B8DCE3;
 }
 
 .form-header {
