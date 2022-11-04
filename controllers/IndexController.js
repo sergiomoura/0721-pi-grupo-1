@@ -13,6 +13,9 @@ const indexController = {
     },
     showCarrinho: (req, res) => {
         res.render('carrinho.ejs')
+    },
+    showProdutosInterna: (req, res) => {
+        res.render('produtosInterna.ejs')
     }
 }
 

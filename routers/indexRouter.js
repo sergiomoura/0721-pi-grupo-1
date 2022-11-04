@@ -15,5 +15,6 @@ router.get('/login', indexController.showLogin);
 router.get('/finalizacao', indexController.showFinalizacao);
 router.get('/produtos', produtosController.listar);
 router.post('/carrinho/add', indexController.showCarrinho);
+router.get('/livros', indexController.showProdutosInterna);
 
 module.exports = router
