@@ -29,9 +29,15 @@
     width: 100%;
     padding: 10px;
     padding-bottom: 0px;
+    max-width: 230px; max-height: 300px 
 
 }
-
+h2{
+    white-space: nowrap;
+    width: 8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .livros{
     margin: 10px;
     margin: 0 12px;

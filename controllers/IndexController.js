@@ -10,6 +10,9 @@ const indexController = {
     },
     showFinalizacao: (req, res) => {
         res.render('finalizacaoCompra.ejs')
+    },
+    showCarrinho: (req, res) => {
+        res.render('carrinho.ejs')
     }
 }
 
