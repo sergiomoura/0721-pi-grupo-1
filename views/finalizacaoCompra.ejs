@@ -4,84 +4,79 @@
 
     <body>
         <link rel="stylesheet" href="/css/finalizacaoCompra.css">
-
         <%- include("partials/header.ejs"); %>
-            <div class="main">
-                <div class="book">
-                    <h3>produtos</h3>
-                    <img src="/img/vitrine13.jpg" loading="lazy" alt="">
-                    <div class="informacao-book">
-                            <h4>preço da unidade</h3>
-                            <p>$30,00</p>
-                            <h4>Quantia</h3>
-                            <p>1</p>
-                            <h4>subtotal de itens</h3>
-                            <p>$30,00</p>
-                    </div>
-                </div>
-                <main>
+            <div class="div-name">
+                <main class="informacao">
                     <div class="dados-pessoais">
                         <h3>Dados pessoais</h3>
-
                         <div class="input-box">
-                            <label for="name">Nome completo</label>
+                            <label for="number">Nome completo</label>
                             <input id="number" type="text" name="name" required>
                         </div>
-
                         <div class="input-box">
                             <label for="name">Celular</label>
                             <input id="number" type="tel" name="number" required>
                         </div>
-
                     </div>
-
                     <div class="endereco-de-entrega">
                         <h3>Endereço de entrega</h3>
-
-
                         <div class="input-box">
                             <label for="number">CEP</label>
                             <input type="text" id="cep" size="15" maxlength="9" autocomplete="off">
                             <button type="button" onclick="consultaCep()">Consultar</button>
                         </div>
-
                         <div class="input-box">
                             <label for="adress">Estado</label>
                             <input type="adress" type="text" name="adress" required>
                         </div>
-
                         <div class="input-box">
                             <label for="adress">Cidade</label>
                             <input type="adress" type="text" name="adress" required>
                         </div>
-
-
                         <div class="input-box">
                             <label for="adress">Bairro</label>
                             <input type="adress" type="text" name="adress" required>
                         </div>
-
                         <div class="input-box">
                             <label for="adress">Logadouro</label>
                             <input type="adress" type="text" name="adress" required>
                         </div>
-
                         <div class="input-box">
                             <label for="adress">Número</label>
                             <input type="adress" type="number" name="adress" required>
                         </div>
-
                         <div class="input-box">
                             <label for="adress">Complemento</label>
                             <input type="adress" type="text" name="adress" required>
                         </div>
-
-
                     </div>
                 </main>
 
+                <div class="informacao-de-compra">
+                    <h3>produtos</h3>
+                    <div class="book">            
+                        <div class="informacao-book">
+                            <img src="/img/vitrine13.jpg" loading="lazy" alt="">
+                                <h2>Gravity Falls</h2>
+                                <h4>preço da unidade</h3>
+                                <p>$30,00</p>
+                                <h4>Quantia</h3>
+                                <p>1</p>
+                               
+                        </div>
+                        <div class="informacao-book">
+                            <img src="/img/vitrine13.jpg" loading="lazy" alt="">
+                                <h2>Gravity Falls</h2>
+                                <h4>preço da unidade</h3>
+                                <p>$30,00</p>
+                                <h4>Quantia</h3>
+                                <p>1</p>
+                               
+                        </div>
+                    </div>
+                </div>
+               
             </div>
-            <%- include('partials/footer.ejs') %>
+        <%- include('partials/footer.ejs') %>
     </body>
-
 </html>

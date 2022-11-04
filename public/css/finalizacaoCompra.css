@@ -5,27 +5,18 @@
     font-family: 'Rhodium Libre';
 }
 
-.main{
+.div-name{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 960px;
     margin-top: 30px;
-
+    box-shadow: 5px 5px 10px #009dac;
 }
 
-main{
+.informacao{
     width: 480px;
     background-color: #B8DCE3;
-}
-
-.book{
-    background-color: aqua;
-    width: 480px;
-}
-
-.informacao-book{
-    display: flex;
 }
 
 .dados-pessoais{
@@ -37,13 +28,45 @@ main{
 
 .input-box{
     margin-right: 10px;
+    margin: 10px;
+}
+
+.input-box > input{
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.endereco-de-entrega{
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
 }
 
 label{
     width: 45px;
-    
 }
-.endereco-de-entrega{
-    margin-bottom: 0px;
+
+.informacao-de-compra{
+    width: 480px;
+    padding: 10px;
+}
+
+.informacao-de-compra>h3{
+    margin: 10px 0px 0px 10px;
+}
+.book{  
+    padding: 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.informacao-book{
+    margin: 10px;
+}
+
+.informacao-book > h2{
+    margin-left: 34px;
 }
 
