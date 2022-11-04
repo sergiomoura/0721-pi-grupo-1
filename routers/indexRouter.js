@@ -16,5 +16,5 @@ router.get('/finalizacao', indexController.showFinalizacao);
 router.get('/produtos', produtosController.listar);
 router.post('/carrinho/add', indexController.showCarrinho);
 router.get('/livros', indexController.showProdutosInterna);
-
+router.get('/carrinho', indexController.showCarrinho);
 module.exports = router
