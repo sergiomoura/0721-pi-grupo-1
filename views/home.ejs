@@ -74,7 +74,8 @@
             </aside>
             <div class="promocao">DESTAQUE DO MÊS</div>
             <aside>
-                <% for(let produto of destaqueDoMes){ %>
+                <% for(let i=0; i<4;i++){
+                    let produto = destaqueDoMes[i]; %>
                     <div class="card">
                         <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
                         <div class="livros">
@@ -103,7 +104,8 @@
                     <% } %>
             </aside>
             <aside>
-                <% for(let produto of destaqueDoMes){ %>
+                <% for(let i=4; i<8;i++){
+                    let produto = destaqueDoMes[i]; %>
                     <div class="card">
                         <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
                         <div class="livros">
@@ -133,7 +135,8 @@
             </aside>
             <div class="promocao">LANÇAMENTOS</div>
             <aside>
-                <% for(let produto of lancamentos){ %>
+                <% for(let i=0; i<4;i++){
+                    let produto = lancamentos[i]; %>
                     <div class="card">
                         <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
                         <div class="livros">
@@ -162,7 +165,8 @@
                     <% } %>
             </aside>
             <aside>
-                <% for(let produto of lancamentos){ %>
+                <% for(let i=4; i<8;i++){
+                    let produto = lancamentos[i]; %>
                     <div class="card">
                         <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
                         <div class="livros">
@@ -254,35 +258,6 @@
                             </div>
                         </div>
                     </div>
-                    <% } %>
-            </aside>
-            <aside>
-                <% for(let produto of superDescontos){ %>
-                <div class="card">
-                    <img src="/img/produtos/<%= produto.imagem%>" loading="lazy" alt="">
-                    <div class="livros">
-                        <h2>
-                            <%= produto.nome%>
-                        </h2>
-                         <span>
-                                <%= produto.preco.toLocaleString('pt-br', { minimumFractionDigits: 2 , style: 'currency'
-                                    , currency: 'BRL' }) %>
-                            </span>
-                    </div>
-                    <div class="buton">
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa fa-shopping-cart"></i>
-                                Comprar
-                            </button>
-                        </div>
-                        <div class="button-group">
-                            <button type="button">
-                                <i class="fa-solid fa-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
                 <% } %>
             </aside>
             <%- include('partials/footer.ejs') %>

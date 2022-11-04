@@ -28,10 +28,10 @@ module.exports = {
         FROM
         produtos 
         WHERE tipodepromocao = 2
-        limit 0,4
+        limit 0,8
     `
         let destaqueDoMes= await sequelize.query(sql, {type: Sequelize.QueryTypes.SELECT});
-
+        console.log(destaqueDoMes.length);
         sql =  `
         SELECT
             id, 
@@ -42,7 +42,7 @@ module.exports = {
         FROM
         produtos 
         WHERE tipodepromocao = 3
-        limit 0,4
+        limit 0,8
     `
 
         let lancamentos= await sequelize.query(sql, {type: Sequelize.QueryTypes.SELECT});
@@ -57,7 +57,7 @@ module.exports = {
         FROM
         produtos 
         WHERE tipodepromocao = 4
-        limit 0,4
+        limit 0,8
     `
          let superDescontos = await sequelize.query(sql, {type: Sequelize.QueryTypes.SELECT});
     
