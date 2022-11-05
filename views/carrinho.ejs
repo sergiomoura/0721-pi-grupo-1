@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +9,44 @@
     <title>Document</title>
 </head>
 <%- include("partials/head.ejs"); %>
-<body>
-    <link rel="stylesheet" href="/css/login.css">
-    
-    <%- include("partials/header.ejs"); %>
-    <main>
-        <h2>Meu Carrinho</h2>
 
-        <div class="container">
+    <body>
+        <!-- <link rel="stylesheet" href="/css/login.css"> -->
 
-                <form action="#">
-                    <div class="title">
-                        
-                    </div>
-                
-                        <div class="produtoCarrinho">
-                           <div class="cardimg" ><img class="amostra" src="/img/produtos/31.jpg" alt=""></div> 
-                           <p>Torto Arado</p>
-                           <label for="quantidade">Quantidade:</label>
-                           <input type="number" value="1">
-                        </div>
+        <%- include("partials/header.ejs"); %>
+            <main>
+                <h2>Meu Carrinho</h2>
+
+                <div class="container">
 
 
-                        <div class="produtoCarrinho">
-                            <div class="cardimg" ><img class="amostra" src="/img/produtos/34.jpg" alt=""></div> 
-                            <p>O Iluminado</p>
+                    <div class="produtoCarrinho">
+                        <img class="amostra" src="/img/produtos/31.jpg" alt="">
+                        <div>
+                            <h2>Torto Arado</h2>
                             <label for="quantidade">Quantidade:</label>
                             <input type="number" value="1">
-                         </div>
-    
-                    
-    
-                        <div class="login-button">
-                            <button><a href="#">Comprar</a></button>
                         </div>
-           
-</body>
+                        <span>$22,90</span>
+                    </div>
+
+
+                    <div class="produtoCarrinho">
+                        <img class="amostra" src="/img/produtos/34.jpg" alt="">
+                        <div>
+                            <h2>O Iluminado</h2>
+                            <label for="quantidade">Quantidade:</label>
+                            <input type="number" value="1">
+                        </div>
+                        <span>$22,90</span>
+                    </div>
+                    </div>
+                    
+                    <div class="login-button">
+                        <button><a href="#">Comprar</a></button>
+                    </div>
+                </div>
+            </main>
+    </body>
+
 </html>
