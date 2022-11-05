@@ -93,3 +93,7 @@ hr{
     margin: 0px;
     padding: 0px;
 }
+
+.pagamento> button button:hover {
+    background-color: #B8DCE3;
+}
