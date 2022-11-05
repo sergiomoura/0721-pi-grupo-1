@@ -3,7 +3,7 @@
     background-color:#009DAC ;
     border: none;
     height: 30px;
-    padding: 0 30px;
+    padding: 0px 25px;
     cursor: pointer;
     border-radius: 20px;
     justify-content: space-between;
@@ -69,6 +69,7 @@ aside {
 
 .button {
     justify-content: space-between;
+   
 }
 
 
@@ -190,5 +191,4 @@ aside {
 #radio4:checked~.navigation-auto .auto-btn4 {
     background-color: #FFFFFF;
 }
-
 
