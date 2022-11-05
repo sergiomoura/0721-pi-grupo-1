@@ -74,10 +74,10 @@ main {
 }
 
 .input-group {
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 1rem 0; */
+    padding: 1rem 0;
 }
 
 .input-box {
