@@ -11,14 +11,17 @@
     <main>
         <div class="container">
             <img src="/img/cadastro.svg">
-        
-            <div class="form">
+        </div>
+
+        <div class="form">
             <form action="#">
-                <div class="title">
-                    <h1>Cadastre-se</h1>
-                </div>
-                <div class="login-button">
-                    <button><a href="#">Entrar</a></button>
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
                 </div>
 
                 <div class="input-group">
@@ -31,15 +34,14 @@
                         <label for="lastname">Sobrenome</label>
                         <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
                     </div>
-                    
                     <div class="input-box">
                         <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
                     </div>
 
                     <div class="input-box">
                         <label for="number">Celular</label>
-                        <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
                     </div>
 
                     <div class="input-box">
@@ -47,11 +49,14 @@
                         <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                     </div>
 
+
                     <div class="input-box">
-                        <label for="Confirmpassword">Confirme sua senha</label>
-                        <input id="Confirmpassword" type="password" name="Confirmpassword" placeholder="Digite sua senha novamente" required>
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
                     </div>
+
                 </div>
+
                 <div class="gender-inputs">
                     <div class="gender-title">
                         <h6>Gênero</h6>
@@ -59,33 +64,36 @@
 
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input type="radio" id="female" name="gender">
+                            <input id="female" type="radio" name="gender">
                             <label for="female">Feminino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input type="radio" id="male" name="gender">
+                            <input id="male" type="radio" name="gender">
                             <label for="male">Masculino</label>
                         </div>
 
                         <div class="gender-input">
-                            <input type="radio" id="others" name="gender">
+                            <input id="others" type="radio" name="gender">
                             <label for="others">Outros</label>
                         </div>
 
                         <div class="gender-input">
-                            <input type="radio" id="none" name="gender">
+                            <input id="none" type="radio" name="gender">
                             <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
                 </div>
 
-                <div class="login-button">
-                    <button><a href="#">Continuar</a></button>
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
                 </div>
             </form>
         </div>
+    </div>
+        
     </main>
+
     <%- include('partials/footer.ejs') %>
 </body>
 </html> 

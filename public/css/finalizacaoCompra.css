@@ -6,7 +6,10 @@
 }
 
 .div-name{
-    display: flex;
+    display: grid;
+    grid-template-areas: "A B"
+                        "C C"
+                        "D D";
     margin-left: auto;
     margin-right: auto;
     width: 960px;
@@ -16,7 +19,8 @@
 
 .informacao{
     width: 480px;
-    background-color: #B8DCE3;
+    grid-area: A;
+    background-color: rgb(252, 252, 252);
 }
 
 .dados-pessoais{
@@ -51,10 +55,13 @@ label{
 .informacao-de-compra{
     width: 480px;
     padding: 10px;
+    grid-area: B;
+    
 }
 
 .informacao-de-compra>h3{
     margin: 10px 0px 0px 10px;
+
 }
 .book{  
     padding: 0px 10px 10px;
@@ -70,3 +77,23 @@ label{
     margin-left: 34px;
 }
 
+.escolha-de-pagamento{
+    grid-area: D;
+    background-color: #B8DCE3;
+}
+
+hr{
+    width: 959px;
+    grid-area: C;
+    border-right: 1px solid #c0c0c0;
+    
+}
+
+.pagamento> button{
+    margin: 0px;
+    padding: 0px;
+}
+
+.pagamento> button button:hover {
+    background-color: #B8DCE3;
+}

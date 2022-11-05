@@ -9,14 +9,14 @@ main {
 
 .container {
     width: 900px;
-    /* height: 80vh; */
     display: flex;
     box-shadow: 5px 5px 10px #009DAC;
 }
 
 .container img {
     width: 67%;
-    margin: 20px;
+    margin: 20;
+    background-color: rgb(220, 239, 243);
 }
 
 
@@ -26,7 +26,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #B8DCE3;
+    background-color: #fff;
 }
 
 .form-header {
@@ -73,7 +73,7 @@ main {
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #009DAC;
 }
 
 .input-box label,
@@ -87,27 +87,6 @@ main {
     color: #000000be;
 }
 
-.gender-group {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-    padding: 0 .5rem;
-}
-
-.gender-input {
-    display: flex;
-    align-items: center;
-}
-
-.gender-input input {
-    margin-right: 0.35rem;
-}
-
-.gender-input label {
-    font-size: 0.81rem;
-    font-weight: 600;
-    color: #000000c0;
-}
 
 .login-button {
     display: flex;
@@ -171,4 +150,3 @@ main {
     }
 }
 */
-

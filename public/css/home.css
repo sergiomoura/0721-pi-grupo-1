@@ -17,6 +17,10 @@
     margin-top: auto;
 }
 
+.buton buton:hover {
+    background-color: #b8dce3;
+}
+
 .card{
     border-radius: 15px;
     border: 1px solid rgb(212, 212, 212);
