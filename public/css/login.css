@@ -3,21 +3,30 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    margin: 90px 0;
+    /* height: 500px;
+    margin: 90px 0; */
 }
 
 .container {
     width: 900px;
     display: flex;
-    box-shadow: 5px 5px 10px #009DAC;
 }
 
-.container img {
+.img{
+    background-image: url(/img/login.svg);
+    background-position: 595px;
+    background-size: 1386px;
+    display: flex;
+    height: 549px;
+    width: 543px;
+}
+/* .container  img {
     width: 67%;
     margin: 20;
     background-color: rgb(220, 239, 243);
-}
+} */
+
+
 
 
 .form {

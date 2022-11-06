@@ -82,7 +82,7 @@ aside {
     width: 950px;
     height: 400px;
     overflow: hidden;
-    padding-top: 25px;
+    
     position: relative;
     z-index: -1;
 }
@@ -118,10 +118,11 @@ aside {
 
 .manual-navigation{
     position: absolute;
-    width: 830px;
+    width: 950px;
     margin-top: -70px;
     display: flex;
     justify-content: center;
+   
 }
 
 .manual-btn{
