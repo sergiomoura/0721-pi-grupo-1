@@ -6,6 +6,12 @@ const path = require('path')
 
 // criando servidor
 const app = express();
+app.use(session({
+    secret: 'SEGREDO',
+    resave: false,
+    saveUninitialized: true,
+  }))
+
 //Configuração do Template Engine
 app.set('view engine', 'ejs');
 //configurando a pasta public como contenedora dos arquivos estáticos
