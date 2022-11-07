@@ -15,38 +15,49 @@
 
         <%- include("partials/header.ejs"); %>
             <main>
-                <h2>Meu Carrinho</h2>
+                
+                    <div class="titulo">
+                        <h2>Meu Carrinho</h2>
+                    </div>
+                    <div class="envolver">
 
-                <div class="container">
+                    <div class="container">
 
 
-                    <div class="produtoCarrinho">
-                        <img class="amostra" src="/img/produtos/31.jpg" alt="">
-                        <div>
-                            <h2>Torto Arado</h2>
-                            <label for="quantidade">Quantidade:</label>
-                            <input type="number" value="1">
+                        <div class="produtoCarrinho">
+                            <img class="amostra" src="/img/produtos/31.jpg" alt="">
+                            <div>
+                                <h2>Torto Arado</h2>
+                                <label for="quantidade">Quantidade:</label>
+                                <input type="number" value="1">
+                            </div>
+                            <span>R$22,90</span>
+
                         </div>
-                        <span>$22,90</span>
-                    </div>
 
 
-                    <div class="produtoCarrinho">
-                        <img class="amostra" src="/img/produtos/34.jpg" alt="">
-                        <div>
-                            <h2>O Iluminado</h2>
-                            <label for="quantidade">Quantidade:</label>
-                            <input type="number" value="1">
+                        <div class="produtoCarrinho">
+                            <img class="amostra" src="/img/produtos/34.jpg" alt="">
+                            <div>
+                                <h2>O Iluminado</h2>
+                                <label for="quantidade">Quantidade:</label>
+                                <input type="number" value="1">
+                            </div>
+                            <span>R$22,90</span>
                         </div>
-                        <span>$22,90</span>
                     </div>
+                    <div class="comprar">
+                        <h4>Total = R$100,00</h4>
                     </div>
-                    
                     <div class="login-button">
-                        <button><a href="#">Comprar</a></button>
+                        <button>Comprar</button>
                     </div>
                 </div>
+
+                </div>
+
             </main>
+            <%- include('partials/footer.ejs') %>
     </body>
 
 </html>
