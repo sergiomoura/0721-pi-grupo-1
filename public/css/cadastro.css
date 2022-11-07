@@ -86,13 +86,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-<<<<<<< HEAD
-    padding: 1rem 0;
-=======
-    padding: 1rem 0; */
+    padding: 1rem 0; 
     display: grid;
     grid-template-columns: 1fr 1fr;
->>>>>>> b606dcaf96c6d7254c587e9de8ea44b07163e5df
 }
 
 .input-box {
