@@ -3,7 +3,7 @@ document.getElementById("radio1").checked = true;
 
 setInterval(function(){
     nextImage();
-}, 5000)
+}, 6000)
 
 function nextImage(){
     carrossel++;

@@ -1,3 +1,5 @@
+const {sequelize, Sequelize} = require('../database/models');
+
 const indexController = {
     showHome: (req, res) => {
         res.render('home.ejs', produtos)
@@ -16,8 +18,33 @@ const indexController = {
     },
     showProdutosInterna: (req, res) => {
         res.render('produtosInterna.ejs')
-    }
+    },
+    addCarrinho: async (req, res) => {
+        let id = req.params.id;
+        let sql = `
+        SELECT
+            id, 
+            nome,
+            preco,
+            imagem,
+            sinopse
+        FROM
+        produtos 
+        WHERE id = ${id};
+     `
+        let produtos = await sequelize.query(sql, {type: Sequelize.QueryTypes.SELECT});
+        let produto = produtos[0];
+        if (req.session.carrinho) {
+            req.session.carrinho.push(produto);
+        } else {
+            req.session.carrinho = [produto];
+        }
+        console.log(req.session.carrinho);
+        res.redirect("/home");
+    },
+
 }
+
 
 
 module.exports = indexController;

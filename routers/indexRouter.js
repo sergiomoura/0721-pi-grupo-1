@@ -14,7 +14,7 @@ router.get('/cadastro', indexController.showCadastro);
 router.get('/login', indexController.showLogin);
 router.get('/finalizacao', indexController.showFinalizacao);
 router.get('/produtos', produtosController.listar);
-router.post('/carrinho/add', indexController.showCarrinho);
+router.post('/carrinho/add/:id', indexController.addCarrinho);
 router.get('/livros', indexController.showProdutosInterna);
 router.get('/carrinho', indexController.showCarrinho);
 module.exports = router

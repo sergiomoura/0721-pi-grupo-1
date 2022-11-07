@@ -15,41 +15,49 @@
     align-items: center;
     position: relative;
 }
-
+.comprar{
+    padding: 50px;
+}
 .produtoCarrinho span{
     position: absolute;
     bottom: 10px;
     right: 10px;
 }
- 
 
- .container {
+.envolver{
+    margin-left: 550px;
+}
+.titulo h2{
+   border-right: #B8DCE3;
+}
+  /* .container {
      width: 900px;
-     height: 80vh;
+     height: 60vh;
      display: flex;
      box-shadow: 5px 5px 10px #009DAC;
      display: flex;
      flex-direction: column;
- }
- main{
+ }   */
+ /* main{
     display: flex;
     justify-content: center;
     align-items: center;
- }
+    padding: auto;
+ }  */
 
- /* .login-button { */
-    /* display: flex; */
-    /* align-items: center; */
-/* } */
 
 .login-button button {
+    background-color: #009DAC;
     border: none;
-    background-color:#009DAC;
-    padding: 0.4rem 1rem;
-    border-radius: 5px;
+    height: 30px;
+    padding: 0 30px;
     cursor: pointer;
+    border-radius: 20px;
+    color: #FFFFFF;
 }
-
+.login-button{
+    padding-left: 700px; 
+}
 .login-button button:hover {
     background-color: #B8DCE3;
 }
