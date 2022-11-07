@@ -40,7 +40,7 @@ const indexController = {
             req.session.carrinho = [produto];
         }
         console.log(req.session.carrinho);
-        res.redirect("/home");
+        res.redirect("/carrinho");
     },
 
 }
