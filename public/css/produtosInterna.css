@@ -38,6 +38,7 @@ button{
     cursor: pointer;
     border-radius: 20px;
     color: #FFFFFF;
+    margin-left: 4px;
 }
 
 .button{

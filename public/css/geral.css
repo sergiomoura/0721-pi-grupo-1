@@ -81,6 +81,7 @@ header {
     background: #B8DCE3;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 55px;
 }
 .dropdown-menu > nav{
     height: 40px;
@@ -103,7 +104,7 @@ header {
     padding-left: 218px;
     margin-left: auto;
     margin-right: auto;
-    width: 975px;
+    width: 1047px;
     height: 100%;
     
 }
@@ -155,7 +156,7 @@ header {
 }
 
 footer{
-    margin-top: 30px;
+    margin-top: 55px;
     width: 100%;
    
 }

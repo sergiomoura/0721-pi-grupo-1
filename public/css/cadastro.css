@@ -3,15 +3,25 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    
     /* height: 600px; */
     /* margin: 90px 0 */
 }
 
 .container {
-    width: 50%;
-    height: 50vh;
+    background-image: url(/img/cadastro.png);
+    background-position: 595px;
+    background-size: 1386px;
     display: flex;
+    height: 549px;
+    width: 543px;
 }
+
+
 
 .form-image {
     width: 10%;
@@ -24,13 +34,12 @@ main {
 
 
 .form {
-    width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 3rem;
+    
 }
 
 .form-header {
@@ -77,13 +86,20 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+<<<<<<< HEAD
     padding: 1rem 0;
+=======
+    padding: 1rem 0; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+>>>>>>> b606dcaf96c6d7254c587e9de8ea44b07163e5df
 }
 
 .input-box {
     display: flex;
     flex-direction: column;
     margin-bottom: 1.1rem;
+    padding-right: 10px;
 }
 
 .input-box input {

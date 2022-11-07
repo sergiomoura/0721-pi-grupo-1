@@ -3,7 +3,7 @@
     background-color:#009DAC ;
     border: none;
     height: 30px;
-    padding: 0 30px;
+    padding: 0px 25px;
     cursor: pointer;
     border-radius: 20px;
     justify-content: space-between;
@@ -69,6 +69,7 @@ aside {
 
 .button {
     justify-content: space-between;
+   
 }
 
 
@@ -81,7 +82,7 @@ aside {
     width: 950px;
     height: 400px;
     overflow: hidden;
-    padding-top: 25px;
+    
     position: relative;
     z-index: -1;
 }
@@ -117,10 +118,11 @@ aside {
 
 .manual-navigation{
     position: absolute;
-    width: 830px;
+    width: 950px;
     margin-top: -70px;
     display: flex;
     justify-content: center;
+   
 }
 
 .manual-btn{
@@ -190,5 +192,4 @@ aside {
 #radio4:checked~.navigation-auto .auto-btn4 {
     background-color: #FFFFFF;
 }
-
 
