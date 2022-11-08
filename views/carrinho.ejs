@@ -35,7 +35,7 @@
 
                     </div>
                     <div class="comprar">
-                        <!-- <h4>`Total = ${total}`</h4> -->
+                        <h4>Total <%= total.toLocaleString('pt-br', { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' }) %></h4>
                         <button>Finalização</button>
                     </div>
                   </div>

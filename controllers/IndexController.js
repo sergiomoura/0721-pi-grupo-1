@@ -15,7 +15,11 @@ const indexController = {
     },
     showCarrinho: (req, res) => {
         let produtos = req.session.carrinho
-        res.render('carrinho.ejs',{produtos})
+        let total = 0 
+        for (const p of produtos) {
+            total = total + 1* p.preco
+        }
+        res.render('carrinho.ejs',{produtos, total})
     },
     showProdutosInterna: (req, res) => {
         res.render('produtosInterna.ejs')
