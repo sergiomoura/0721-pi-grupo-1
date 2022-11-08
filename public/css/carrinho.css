@@ -1,21 +1,53 @@
- .amostra {
-     height: 150px;
-     /* width: 250px; */
-     margin-right: 10px;
+
+ main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
  }
 
+h1{
+    align-items: center;
+ }
+
+
  .produtoCarrinho {
-    border: 1px solid black;
-    width: 700px;
-    /* height: 205px; */
-    margin-top: 30px;
-    margin-left: 90px;
+    box-shadow: 1px 1px 6px #0000001c;
+    border-radius: 10px;
+   
+    /* margin-top: 30px;
+    margin-left: 90px; */
     padding: 10px;
     display: flex;
-    align-items: center;
-    position: relative;
+    /* align-items: center;
+    position: relative; */
 }
-.comprar{
+
+.amostra {
+    height: 150px;
+    margin-right: 10px;
+}
+
+/* .livro{
+    display: flex;
+} */
+
+.livro{
+    margin-top: 20px;
+}
+
+
+/* .quantidade{
+    margin-top: 77px;
+    display: flex;
+    
+} */
+
+/* .quantidade > h3{
+   
+    margin-left: 436px;
+} */
+
+/* .comprar{
     padding: 50px;
 }
 .produtoCarrinho span{
@@ -24,29 +56,12 @@
     right: 10px;
 }
 
-.envolver{
-    margin-left: 550px;
-}
+
 .titulo h2{
    border-right: #B8DCE3;
-}
-  /* .container {
-     width: 900px;
-     height: 60vh;
-     display: flex;
-     box-shadow: 5px 5px 10px #009DAC;
-     display: flex;
-     flex-direction: column;
- }   */
- /* main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: auto;
- }  */
+} */
 
-
-.login-button button {
+/* .login-button button {
     background-color: #009DAC;
     border: none;
     height: 30px;
@@ -66,11 +81,24 @@
     text-decoration: none;
     font-weight: 500;
     color: #fff;
-}
+} */
 
 
 
 
- /*.cardimg{
+ 
+
+
+/* .cardimg{
     border: 1px solid black;
-}
+} */
+
+
+
+
+
+
+
+/* .envolver{
+    margin-left: 550px;
+} */
