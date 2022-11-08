@@ -1,5 +1,6 @@
 // importando o express
 const express = require("express");
+const session = require('express-session');
 // importando roteador 
 const indexRouter = require('./routers/indexRouter')
 const path = require('path')
