@@ -19,30 +19,23 @@
                   <div class="envolver">
                
                     <div class="container">
+                        <% for(let produto of produtos){ %>
                         <div class="produtoCarrinho">
-                            <img class="amostra" src="/img/produtos/31.jpg" alt="">
+                            <img class="amostra" src="/img/produtos/<%= produto.imagem%>" alt="">
                             <div class="livro">
-                                <h2>Torto Arado</h2>
+                                <h2><%= produto.nome%></h2>
                                <div class="quantidade"><label for="quantidade">Quantidade:</label>
-                                    <input type="number" value="1">
-                                    <h3>R$22,90</h3>
+                                    <input type="number" value="1" min="1">
+                                    <h3><%= produto.preco.toLocaleString('pt-br', { minimumFractionDigits: 2 , style: 'currency'
+                                        , currency: 'BRL' }) %></h3>
                                 </div> 
                             </div>
                         </div>
+                        <% } %>
 
-                        <div class="produtoCarrinho">
-                            <img class="amostra" src="/img/produtos/34.jpg" alt="">
-                            <div class="livro">
-                                <h2>O Iluminado</h2>
-                               <div class="quantidade"><label for="quantidade">Quantidade:</label>
-                                    <input type="number" value="1">
-                                    <h3>R$22,90</h3>
-                                </div> 
-                            </div>
-                        </div>
                     </div>
                     <div class="comprar">
-                        <h4>Total = R$100,00</h4>
+                        <!-- <h4>`Total = ${total}`</h4> -->
                         <button>Finalização</button>
                     </div>
                   </div>

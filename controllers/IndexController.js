@@ -14,7 +14,8 @@ const indexController = {
         res.render('finalizacaoCompra.ejs')
     },
     showCarrinho: (req, res) => {
-        res.render('carrinho.ejs')
+        let produtos = req.session.carrinho
+        res.render('carrinho.ejs',{produtos})
     },
     showProdutosInterna: (req, res) => {
         res.render('produtosInterna.ejs')
@@ -41,6 +42,8 @@ const indexController = {
         }
         console.log(req.session.carrinho);
         res.redirect("/carrinho");
+
+        // for (var i = 1; i <= n; i++) total += i;
     },
 
 }
