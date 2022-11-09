@@ -66,7 +66,9 @@ CREATE TABLE IF NOT EXISTS `bookstore`.`usuario` (
   `nome` VARCHAR(64) NOT NULL,
   `senha` VARCHAR(64) NOT NULL,
   `email` VARCHAR(45) NOT NULL,
-  `endereco` VARCHAR(250) NOT NULL,
+  `endereco` VARCHAR(250) DEFAULT NULL,
+  `genero` INT NOT NULL, 
+  `celular` VARCHAR(15) NOT NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 

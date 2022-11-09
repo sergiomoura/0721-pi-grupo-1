@@ -7,6 +7,7 @@ const path = require('path')
 
 // criando servidor
 const app = express();
+app.use(express.urlencoded({ extended: false }));
 app.use(session({
     secret: 'SEGREDO',
     resave: false,

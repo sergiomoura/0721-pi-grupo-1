@@ -11,6 +11,7 @@ const produtosController = require('../controllers/produtosController');
 // criando rotas - direcionando controller - indicando função
 router.get('/', indexController.showHome); 
 router.get('/cadastro', indexController.showCadastro);
+router.post('/cadastro', indexController.cadastrar)
 router.get('/login', indexController.showLogin);
 router.get('/finalizacao', indexController.showFinalizacao);
 router.get('/produtos', produtosController.listar);

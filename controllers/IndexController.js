@@ -1,4 +1,5 @@
-const {sequelize, Sequelize} = require('../database/models');
+const {sequelize, Sequelize, Usuario} = require('../database/models');
+const bcrypt = require('bcrypt');
 
 const indexController = {
     showHome: (req, res) => {
@@ -7,6 +8,25 @@ const indexController = {
     showCadastro: (req, res) => {
         res.render('cadastro.ejs')
     },
+    cadastrar: async ( req, res) =>{
+       // return res.send(req.body)
+        const { nome, email, senha, endereco, genero, celular} = req.body;
+
+        const u = await Usuario.create(
+            {
+                nome,
+                email,
+                senha: bcrypt.hashSync(senha, 10),
+                endereco,
+                genero,
+                celular,
+            }
+        )
+      req.session.Usuario = u;
+
+      res.redirect('/')
+    },
+    
     showLogin: (req, res) => {
         res.render('login.ejs')
     },
