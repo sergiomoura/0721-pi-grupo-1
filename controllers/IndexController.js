@@ -1,4 +1,5 @@
-const {sequelize, Sequelize} = require('../database/models');
+const {sequelize, Sequelize, Usuario} = require('../database/models');
+const bcrypt = require('bcrypt');
 
 const indexController = {
     showHome: (req, res) => {
@@ -7,6 +8,25 @@ const indexController = {
     showCadastro: (req, res) => {
         res.render('cadastro.ejs')
     },
+    cadastrar: async ( req, res) =>{
+       // return res.send(req.body)
+        const { nome, email, senha, endereco, genero, celular} = req.body;
+
+        const u = await Usuario.create(
+            {
+                nome,
+                email,
+                senha: bcrypt.hashSync(senha, 10),
+                endereco,
+                genero,
+                celular,
+            }
+        )
+      req.session.Usuario = u;
+
+      res.redirect('/')
+    },
+    
     showLogin: (req, res) => {
         res.render('login.ejs')
     },
@@ -14,7 +34,12 @@ const indexController = {
         res.render('finalizacaoCompra.ejs')
     },
     showCarrinho: (req, res) => {
-        res.render('carrinho.ejs')
+        let produtos = req.session.carrinho
+        let total = 0 
+        for (const p of produtos) {
+            total = total + 1* p.preco
+        }
+        res.render('carrinho.ejs',{produtos, total})
     },
     showProdutosInterna: (req, res) => {
         res.render('produtosInterna.ejs')
@@ -41,6 +66,8 @@ const indexController = {
         }
         console.log(req.session.carrinho);
         res.redirect("/carrinho");
+
+        // for (var i = 1; i <= n; i++) total += i;
     },
 
 }
