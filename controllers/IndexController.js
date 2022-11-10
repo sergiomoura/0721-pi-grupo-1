@@ -24,7 +24,7 @@ const indexController = {
         )
       req.session.Usuario = u;
 
-      res.redirect('/')
+      res.redirect('/produtos')
     },
     
     showLogin: (req, res) => {
