@@ -3,9 +3,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 950px;
+    
     
     /* height: 500px;
     margin: 90px 0; */
@@ -14,15 +12,18 @@ main {
 .container {
     width: 900px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
 }
 
 .img{
     background-image: url(/img/login.svg);
-    background-position: 595px;
-    background-size: 1386px;
+    background-position: 892px;
+    background-size: 1350px;
     display: flex;
     height: 549px;
-    width: 543px;
+    width: 866px;
 }
  .container  img {
     width: 67%;
@@ -47,9 +48,7 @@ main {
     margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    right: 500px;
-    top: 300px;
+    margin-top: 88px;
 }
 
 
